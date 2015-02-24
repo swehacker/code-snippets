@@ -1,4 +1,4 @@
-# Sed
+# Sed - Stream EDitor
 
 ## Sed command args
 Flag | Description
@@ -44,8 +44,14 @@ x | Exchange
 y | Transform
 
 ### Essential sed commands
-Most people only learn the substitute command
+
 #### Substitution
+Most people only learn the substitute command. It changes all occurences of a regular expression into a new value.
+
+Simple example changing day to night in a file
+```bash
+sed 's/day/night/' <file>
+```
 
 #### Delete
 
