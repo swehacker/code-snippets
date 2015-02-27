@@ -8,6 +8,7 @@ chrome://chrome-urls/
 Following reveals some experimental features:
 ```
 chrome://flags/
+```
 
 ### Allow JSONP w/o Webserver
 If you are using JSONP
